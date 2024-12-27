@@ -35,6 +35,13 @@ const UserListPage = lazy(() => import('src/pages/dashboard/user/list'));
 const UserAccountPage = lazy(() => import('src/pages/dashboard/user/account'));
 const UserCreatePage = lazy(() => import('src/pages/dashboard/user/new'));
 const UserEditPage = lazy(() => import('src/pages/dashboard/user/edit'));
+//user2
+const UserProfilePage2 = lazy(() => import('src/pages/dashboard/user2/profile'));
+const UserCardsPage2 = lazy(() => import('src/pages/dashboard/user2/cards'));
+const UserListPage2 = lazy(() => import('src/pages/dashboard/user2/list'));
+const UserAccountPage2 = lazy(() => import('src/pages/dashboard/user2/account'));
+const UserCreatePage2 = lazy(() => import('src/pages/dashboard/user2/new'));
+const UserEditPage2 = lazy(() => import('src/pages/dashboard/user2/edit'));
 // BLOG
 const BlogPostsPage = lazy(() => import('src/pages/dashboard/post/list'));
 const BlogPostPage = lazy(() => import('src/pages/dashboard/post/details'));
@@ -103,6 +110,18 @@ export const dashboardRoutes = [
         ],
       },
       {
+        path: 'user2',
+        children: [
+          { element: <UserProfilePage2/>, index: true },
+          { path: 'profile', element: <UserProfilePage2 /> },
+          { path: 'cards', element: <UserCardsPage2 /> },
+          { path: 'list', element: <UserListPage2 /> },
+          { path: 'new', element: <UserCreatePage2 /> },
+          { path: ':id/edit', element: <UserEditPage2 /> },
+          { path: 'account', element: <UserAccountPage2 /> },
+        ],
+      },
+      {
         path: 'product',
         children: [
           { element: <ProductListPage />, index: true },
@@ -139,16 +158,16 @@ export const dashboardRoutes = [
       //     { path: 'new', element: <InvoiceCreatePage /> },
       //   ],
       // },
-      // {
-      //   path: 'post',
-      //   children: [
-      //     { element: <BlogPostsPage />, index: true },
-      //     { path: 'list', element: <BlogPostsPage /> },
-      //     { path: ':title', element: <BlogPostPage /> },
-      //     { path: ':title/edit', element: <BlogEditPostPage /> },
-      //     { path: 'new', element: <BlogNewPostPage /> },
-      //   ],
-      // },
+       {
+        path: 'post',
+        children: [
+          { element: <BlogPostsPage />, index: true },
+          { path: 'list', element: <BlogPostsPage /> },
+          { path: ':title', element: <BlogPostPage /> },
+          { path: ':title/edit', element: <BlogEditPostPage /> },
+          { path: 'new', element: <BlogNewPostPage /> },
+        ],
+      },
       // {
       //   path: 'job',
       //   children: [

@@ -74,7 +74,7 @@ export default function HomeView() {
 
         {/* <HomePricing /> */}
 
-        <HomeLookingFor />
+        {/* <HomeLookingFor /> */}
 
         {/* <HomeAdvertisement /> */}
       </Box>
