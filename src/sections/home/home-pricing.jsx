@@ -12,7 +12,7 @@ import { alpha } from '@mui/material/styles';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 
-import { paths } from 'src/routes/paths';
+// import { paths } from 'src/routes/paths';
 
 import { useResponsive } from 'src/hooks/use-responsive';
 
@@ -42,7 +42,7 @@ export default function HomePricing() {
 
       <m.div variants={varFade().inDown}>
         <Typography variant="h2">
-          The right plan for <br /> your business
+          The right plan for  <br /> your Farm
         </Typography>
       </m.div>
 
@@ -128,7 +128,7 @@ export default function HomePricing() {
               color="inherit"
               size="large"
               variant="contained"
-              href="mailto:support@minimals.cc?subject=[Feedback] from Customer"
+              href="mailto:support@msubject=[Feedback] from Customer"
             >
               Contact us
             </Button>
@@ -179,7 +179,7 @@ function PlanCard({ plan, sx, ...other }) {
     >
       <Stack spacing={2}>
         <Typography variant="overline" component="div" sx={{ color: 'text.disabled' }}>
-          License
+          farm overview
         </Typography>
 
         <Box sx={{ position: 'relative' }}>
@@ -250,7 +250,7 @@ function PlanCard({ plan, sx, ...other }) {
           size="small"
           target="_blank"
           rel="noopener"
-          href={paths.minimalUI}
+          // href={}
           endIcon={<Iconify icon="eva:arrow-ios-forward-fill" />}
         >
           Learn more

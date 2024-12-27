@@ -72,11 +72,11 @@ export default function HomeView() {
 
         <HomeCleanInterfaces /> */}
 
-        <HomePricing />
+        {/* <HomePricing /> */}
 
-        {/* <HomeLookingFor /> */}
-{/* 
-        <HomeAdvertisement /> */}
+        <HomeLookingFor />
+
+        {/* <HomeAdvertisement /> */}
       </Box>
     </>
   );

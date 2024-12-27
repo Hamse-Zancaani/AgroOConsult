@@ -122,7 +122,7 @@ export default function OverviewAppView() {
               ],
               series: [
                 {
-                  year: '2023',
+                  year: '2019',
                   data: [
                     {
                       name: 'High Area',

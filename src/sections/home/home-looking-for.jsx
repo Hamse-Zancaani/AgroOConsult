@@ -26,10 +26,10 @@ export default function HomeLookingFor() {
       variant="outlined"
       target="_blank"
       rel="noopener"
-      href={paths.zoneUI}
+      // href={paths.zoneUI}
       endIcon={<Iconify icon="eva:arrow-ios-forward-fill" />}
     >
-      Visit Zone Landing Page
+      Visit AgriConsult
     </Button>
   );
 
@@ -56,7 +56,7 @@ export default function HomeLookingFor() {
             mb: { md: 5 },
           }}
         >
-          Landing Page Template?
+          Agricultural Expert?
         </Typography>
       </m.div>
 

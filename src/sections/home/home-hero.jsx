@@ -273,13 +273,13 @@ export default function HomeHero() {
       </m.div>
 
       <Stack spacing={3} sx={{ textAlign: 'center' }}>
-        <m.div variants={varFade().in}>
+        {/* <m.div variants={varFade().in}>
           <Typography variant="overline" sx={{ opacity: 0.48 }}>
             Available For
           </Typography>
-        </m.div>
+        </m.div> */}
 
-        <Stack spacing={2} direction="row" justifyContent="center">
+        {/* <Stack spacing={2} direction="row" justifyContent="center">
           {['js', 'ts', 'figma', 'nextjs', 'vite'].map((icon) => (
             <m.div key={icon} variants={varFade().in}>
               <Box
@@ -288,9 +288,9 @@ export default function HomeHero() {
                 src={`/assets/icons/platforms/ic_${icon}.svg`}
                 sx={{ width: 24, height: 24 }}
               />
-            </m.div>
-          ))}
-        </Stack>
+            </m.div> */}
+          {/* ))}
+        </Stack> */}
       </Stack>
     </Stack>
   );
