@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import '../../App.css';
 import MaterialTable from 'material-table'
 import { Link } from "react-router-dom";
-import PersonAddAlt1Icon from '@mui/icons-material/PersonAddAlt1';
+// import PersonAddAlt1Icon from '@mui/icons-material/PersonAddAlt1';
 import {
     alpha,
     Box,
@@ -12,7 +12,7 @@ import {
     Tooltip,
     Typography,
   } from '@mui/material';
-  import PrintIcon from '@mui/icons-material/Print';
+  // import PrintIcon from '@mui/icons-material/Print';
 
   {/*import { useAuthContext } from '../../hooks/useAuthContext' */}
 function Comer() {
