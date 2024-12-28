@@ -4,7 +4,7 @@ import { paths } from 'src/routes/paths';
 
 import { useTranslate } from 'src/locales';
 
-import Label from 'src/components/label';
+// import Label from 'src/components/label';
 // import Iconify from 'src/components/iconify';
 import SvgColor from 'src/components/svg-color';
 
@@ -257,7 +257,7 @@ export function useNavData() {
             icon: ICONS.chat,
           },
 
-          //blog
+          // EDUCATION AND TRAINING
           {
             title: t('Education and Training'),
             path: paths.dashboard.post.root,
