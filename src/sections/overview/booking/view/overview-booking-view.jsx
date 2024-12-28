@@ -1,8 +1,8 @@
-import { useTheme } from '@mui/material/styles';
+// import { useTheme } from '@mui/material/styles';
 import Container from '@mui/material/Container';
 import Grid from '@mui/material/Unstable_Grid2';
 
-import { _bookings, _bookingNew, _bookingReview, _bookingsOverview } from 'src/_mock';
+import { _bookings, } from 'src/_mock';
 import {
   BookingIllustration,
   CheckInIllustration,
@@ -11,22 +11,22 @@ import {
 
 import { useSettingsContext } from 'src/components/settings';
 
-import BookingBooked from '../booking-booked';
-import BookingNewest from '../booking-newest';
+// import BookingBooked from '../booking-booked';
+// import BookingNewest from '../booking-newest';
 import BookingDetails from '../booking-details';
-import BookingAvailable from '../booking-available';
-import BookingStatistics from '../booking-statistics';
-import BookingTotalIncomes from '../booking-total-incomes';
+// import BookingAvailable from '../booking-available';
+// import BookingStatistics from '../booking-statistics';
+// import BookingTotalIncomes from '../booking-total-incomes';
 import BookingWidgetSummary from '../booking-widget-summary';
-import BookingCheckInWidgets from '../booking-check-in-widgets';
-import BookingCustomerReviews from '../booking-customer-reviews';
+// import BookingCheckInWidgets from '../booking-check-in-widgets';
+// import BookingCustomerReviews from '../booking-customer-reviews';
 
 // ----------------------------------------------------------------------
 
 const SPACING = 3;
 
 export default function OverviewBookingView() {
-  const theme = useTheme();
+  // const theme = useTheme();
 
   const settings = useSettingsContext();
 

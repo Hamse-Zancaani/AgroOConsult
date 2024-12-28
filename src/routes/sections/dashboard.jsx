@@ -92,8 +92,8 @@ export const dashboardRoutes = [
       { path: 'ecommerce', element: <OverviewEcommercePage /> },
       { path: 'analytics', element: <OverviewAnalyticsPage /> },
       // { path: 'banking', element: <OverviewBankingPage /> },
-      { path: 'Comer', element: <Comer/> },
-          { path: 'Existed', element: <Existed /> },
+      // { path: 'Comer', element: <Comer/> },
+      //     { path: 'Existed', element: <Existed /> },
       { path: 'booking', element: <OverviewBookingPage /> },
       { path: 'file', element: <OverviewFilePage /> },
       
