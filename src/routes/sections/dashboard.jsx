@@ -69,9 +69,9 @@ const PermissionDeniedPage = lazy(() => import('src/pages/dashboard/permission')
 // BLANK PAGE
 const BlankPage = lazy(() => import('src/pages/dashboard/blank'));
 export const Existed =lazy(()=>import ('src/Scenes/Existed/Existed'))
-export const Comer =lazy(()=>import ('src/Scenes/NewComer/Comer'))
-export const AddExisted=lazy(()=>import ('src/Scenes/Existed/AddExisted'))
-export const AddComer=lazy(()=>import ('src/Scenes/NewComer/AddComer'))
+// export const Comer =lazy(()=>import ('src/Scenes/NewComer/Comer'))
+// export const AddExisted=lazy(()=>import ('src/Scenes/Existed/AddExisted'))
+// export const AddComer=lazy(()=>import ('src/Scenes/NewComer/AddComer'))
 
 // ----------------------------------------------------------------------
 
@@ -142,10 +142,10 @@ export const dashboardRoutes = [
       },
 
      
-      {
-        path: 'AddComer', 
-        element: <AddComer /> },
-        { path: 'AddExisted', element: <AddExisted /> },
+      // {
+      //   path: 'AddComer', 
+      //   element: <AddComer /> },
+      //   { path: 'AddExisted', element: <AddExisted /> },
         // { path: 'Add_Attendance', element: <Add_Attendance /> },
         // { path: 'Add_Oragnization', element: <Add_Oragnization /> },
       // {
