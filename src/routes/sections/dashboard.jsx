@@ -68,7 +68,7 @@ const KanbanPage = lazy(() => import('src/pages/dashboard/kanban'));
 const PermissionDeniedPage = lazy(() => import('src/pages/dashboard/permission'));
 // BLANK PAGE
 const BlankPage = lazy(() => import('src/pages/dashboard/blank'));
-export const Existed =lazy(()=>import ('src/Scenes/Existed/Existed'))
+// export const Existed =lazy(()=>import ('src/Scenes/Existed/Existed'))
 // export const Comer =lazy(()=>import ('src/Scenes/NewComer/Comer'))
 // export const AddExisted=lazy(()=>import ('src/Scenes/Existed/AddExisted'))
 // export const AddComer=lazy(()=>import ('src/Scenes/NewComer/AddComer'))
